@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'ligconsolata';
+    src: url('/font/font/Inconsolata-Regular.ttf');
+  }
+
+
+body{
+
+    background-image: url(bg.png);
+    color: aliceblues;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+h1{
+   color: aliceblue;
+}
+h3{
+  color: aliceblue;
+}
+.header{
+     display: flex;
+     display: inline-flex;
+
+}
+
+#logo{
+    border-radius: 50%;
+}
+.headeritems{
+    
+   margin-left: 70%;
+}
+.desc{
+    color: aliceblue;
+    width: 60%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.title{
+    align-content: first baseline;
+    display: flex;
+    display: inline-flex;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 123, 236);
+    border-radius: 20px;
+    width: 6rem;
+    height: 2rem;
+    text-decoration: none !important;
+    color: white !important;
+}
+.buttonhldr{
+    width: 33rem;
+    height: 17rem;
+    display:flex ;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#i1{
+    height: 19rem;
+    width: 7rem;
+border-radius: 5rem;
+}
+#i2{
+    height: 19rem;
+    width: 7rem;
+border-radius: 5rem;
+}
+#i3{
+    height: 19rem;
+    width: 7rem;
+border-radius: 5rem;
+}
+#i4{
+    height: 19rem;
+    width: 7rem;
+border-radius: 5rem;
+}
+#i5{
+    height: 19rem;
+    width: 7rem;
+border-radius: 5rem;
+} 
+#i6{
+    height: 19rem;
+    width: 7rem;
+border-radius: 5rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;;
+    align-items: start ;
+    
+}
+
+.hero-image {
+    display: flex;  
+    gap: 40px;
+   
+
+}
+
+.pics{
+    width: 25%;
+    height: 100%;
+    align-items: center;
+        
+}
